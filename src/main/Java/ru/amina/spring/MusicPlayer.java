@@ -25,9 +25,9 @@ public class MusicPlayer {
         int randomNumber = random.nextInt(3);
 
         if(music == Muzictype.ROCK){
-            System.out.println(rockMusic.getSong());
+            System.out.println(rockMusic.getSong().get(randomNumber));
         } else
-        { System.out.println(classicalMusic.getSong());}
+        { System.out.println(classicalMusic.getSong().get(randomNumber));}
 
     }
 }
